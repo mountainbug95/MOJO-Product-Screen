@@ -6,7 +6,8 @@ body{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #4a4a4a;
 }
 
 .shell-hidden{
@@ -80,7 +81,8 @@ body{
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 50px;
-    font-family: 'Roboto light', sans-serif;
+    font-family: 'Montserrat Thin', sans-serif;
+    font-weight: 100;
 }
 
 .product-subtitle-alt{
@@ -100,7 +102,7 @@ body{
     font-weight: bold;
     margin: 50px;
     display: flex;
-    font-family: 'Roboto light', sans-serif;
+    font-weight: 100;
 }
 
 .product-price-alt{
@@ -131,11 +133,12 @@ body{
     overflow: auto;
     text-align: center;
     margin-bottom: 20px;
-    font-family: 'Roboto light', sans-serif;
+    font-family: 'Montserrat thin', sans-serif;
+    font-weight: 100;
 }
 
 /*Hide description scroll bar*/
-.product-description::-webkit-scrollbar { width: 0 !important }
+.product-description::-webkit-scrollbar { width: 0 !important; }
 .product-description { -ms-overflow-style: none; }
 .product-description { overflow: -moz-scrollbars-none; }
 
